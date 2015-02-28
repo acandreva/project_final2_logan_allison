@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "berlin";
+    src: url(../BRLNSR.TTF)format("truetype");
+}
+@font-face {
+    font-family: "dumbledore";
+    src: url(../dum3thin.ttf)format("truetype");
+}
+
+body {
+    background-image: url(../img/stardust.png);
+    font-family: arial;
+}
+
+h1 {
+    font-family: Dumbledore;
+    font-size: 30px;
+    padding-bottom: 1%;
+}
+
+h2 {
+    font-family: Berlin;
+    font-size: 15px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+/* HEADER & LOGO */
+header {
+    width: 100%;
+    background-color: #FFF;
+    clear: both;
+    border-bottom: 4px solid #000;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    font-family: Dumbledore;
+    font-size: 18px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    margin-right: 1px;
+    padding: 10px 30px 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    color: #000;
+}
+
+nav a:hover, nav #current {
+    background-color: #000;
+    text-decoration: none;
+    color: #bc8d49;
+}
+
+
+/* MAIN CONTENT */
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* TYPE */
+
+    #type {
+        width: 90%;
+        background: #FFF;
+        margin: auto;
+        padding: 10px;
+    }
+
+    #type a:link {
+        text-decoration: none;
+        color: #8a3121;
+    }
+    
+    #type a:hover {
+        text-decoration: underline;
+    }
+    
+    #type a:active, #type a:visited {
+        text-decoration: underline;
+        color: #bc8d49;
+    }
+
+/* COLORS */
+    #colors {
+        width: 50%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    #colors li {
+        list-style-type: none;
+        width: 75%;
+        padding-bottom: 50%;
+        margin-bottom: 15%;
+        border: 4px solid #FFF;
+        -webkit-box-shadow: 5px 5px 5px 2px #292929;
+        box-shadow: 5px 5px 5px 2px #292929;
+    }
+
+    #colors #yellow {
+        background-color: #f3c770;
+}
+
+    #colors #gold {
+        background-color: #bc8d49;
+    }
+
+    #colors #red {
+        background-color: #8a3121;
+    }
+
+    #colors #black {
+        background-color: #000;
+    }
+
+/* IMAGES */
+
+    #images {
+        width: 90%;
+        margin: auto;
+    }
+
+    #images li {
+        list-style-type: none;
+        margin-bottom: 10%;
+
+    }
+
+    #images img {
+        border: 4px solid #FFF;
+        -webkit-box-shadow: 5px 5px 5px 2px #292929;
+        box-shadow: 5px 5px 5px 2px #292929;
+        margin-bottom: 10%;
+    }
+
+    #feathers, #brick, #dininghall {
+        width: 100%;
+    }
+
+/* FOOTER */
+footer {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    background-color: #FFF;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: small;
+}
+
+
+
+/*~~~~~~NEW SECTION~~~~~~~*/
+@media screen and (min-width: 680px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+/* HEADER & LOGO */
+
+    header img {
+        max-width: 300px;
+        border-right: 4px solid #000;
+    }
+    
+    nav {
+        width: 50%;
+        float: right;
+        font-size: 20px;
+    }
+    
+    nav a {
+        padding: 10px 20px 20px;
+    }
+
+/* MAIN CONTENT */
+
+/* TYPE */
+
+    #type {
+        width: 50%;
+        max-width: 400px;
+        margin: 20px 0 0 5px;
+        float: left;
+        padding: 30px;
+    }
+
+/* COLORS */
+    #colors {
+        float: left;
+        width: 20%;
+        padding: 20px;
+        margin: 0;
+    }
+
+/* IMAGES */
+
+    #feathers, #brick {
+        float: left;
+        width: 50%;
+        max-width: 240px;
+        margin-right: 40px;
+    }
+
+    #dininghall {
+        max-width: 530px;
+    }
+
+/* FOOTER */
+    footer {
+        padding: 40px 0;
+        font-size: medium;
+    }
+
+}/*end media*/
+
+@media screen and (min-width: 1100px) {
+
+    #container {
+        max-width: 1100px;
+    }
+
+}
+
+@media screen and (min-width: 1132px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+/* HEADER & LOGO */
+    header img {
+        max-width: 400px;
+        margin-left: 10%;
+    }
+    
+    nav {
+        width: 30%;
+        max-width: 1000px;
+    }
+    
+    nav a {
+        padding: 120px 30px 20px;
+        text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+    }
+
+/* TYPE */
+
+    #type {
+        width: 27%;
+        margin: 20px 0 0 0;
+    }
+
+/* COLORS */
+    #colors {
+        width: 10%;
+        max-width: 200px;
+        float: left;
+        margin: 0;
+    }
+
+/* IMAGES */
+
+    #images {
+        width: 53%;
+        float: right;
+    }
+
+/* FOOTER */
+    footer {
+        padding: 50px 0;
+    }
+
+}/*end media*/
