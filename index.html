@@ -10,49 +10,66 @@
 <body>
 
     <header>
+
+        <nav>
+            <ul>
+                <li><a href="#" id="current" >Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
         <img src="img/leakycauldronlogo.png" alt="Leaky Cauldron Logo" title="Leaky Cauldron Logo" />
+
     </header>
 
-    <main>
+    <div id="container">
 
-        <article class="type">
+        <article id="type">
 
             <h1>The Leaky Cauldron</h1>
 
                 <h2>Subhead goes here</h2>
 
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia</p>
+                <p>Duis mollis, est <a href="google.com" alt="this is a link" title="this is a link" target="_blank" >a link goes here</a> non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia</p>
+
+                <h2>Subhead goes here</h2>
+
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia</p>
 
-        </article><!-- END .typography -->
+        </article><!-- END .type -->
 
-        <article class="colors">
+        <article id="colors">
 
             <ul>
-                <li class="first">&nbsp;</li>
-                <li class="second">&nbsp;</li>
-                <li class="third">&nbsp;</li>
+                <li id="yellow">&nbsp;</li>
+                <li id="gold">&nbsp;</li>
+                <li id="red">&nbsp;</li>
+                <li id="black">&nbsp;</li>
             </ul>
 
         </article><!-- END .colors -->
 
-        <article class="images">
+        <article id="images">
             <ul>
-                <li class="a">
-                    <img src="img/monitor.png" alt="Monitor icon" />
+                <li>
+                    <img id="feathers" src="img/owlfeathers.jpg" alt="Owl feathers" />
                 </li>
-                <li class="b">
-                    <img src="img/juggler.png" alt="Man juggling life" />
+                <li>
+                    <img id="brick" src="img/brick.jpg" alt="brick" />
                 </li>
-                <li class="c">
-                    <img src="img/main-image.png" alt="Happy devices" />
+                <li>
+                    <img id="dininghall" src="img/lc_interior5.jpg" alt="Inside of The Leaky Cauldron" />
                 </li>
             </ul>
         </article><!-- end .details -->
 
-    </main><!-- end main -->
+    </div><!-- end content wrapper -->
 
-
+    <footer>
+        <p>&copy; Allison Logan</p>
+    </footer>
 
 </body>
 </html>
