@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: "berlin";
-    src: url(../BRLNSR.TTF)format("truetype");
+    src: url(../fonts/BRLNSR.TTF)format("truetype");
 }
 
 @font-face {
     font-family: "dumbledore";
-    src: url(../dum3thin.ttf)format("truetype");
+    src: url(../fonts/dum3thin.ttf)format("truetype");
 }
 
 body {
